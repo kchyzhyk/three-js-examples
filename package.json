@@ -1,0 +1,19 @@
+{
+  "name": "three-js-examples",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "esbuild": "^0.24.0",
+    "lil-gui": "^0.20.0",
+    "normalize.css": "^8.0.1"
+  }
+}
