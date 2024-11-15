@@ -78,7 +78,7 @@ document.getElementById('container').appendChild(renderer.domElement);
 
 // Загрузка текстуры крыши
 const loader = new THREE.TextureLoader();
-const roofTexture = loader.load('Screenshot.png'); // Замените на путь к изображению
+const roofTexture = loader.load('Screenshot.png');
 
 const axesHelper = new THREE.AxesHelper(5)
 scene.add(axesHelper);
@@ -111,7 +111,7 @@ scene.add(wall4);
 
 // Создание крыши с наклоном
 const roofGeometry = new THREE.PlaneGeometry(10, 10);
-const roofMaterial = new THREE.MeshBasicMaterial({ map: roofTexture });
+const roofMaterial = new THREE.MeshBasicMaterial({ color: "blue" });
 const roof = new THREE.Mesh(roofGeometry, roofMaterial);
 
 // Поворот крыши на угол в 30 градусов (π/6 радиан)
