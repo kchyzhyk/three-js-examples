@@ -77,7 +77,7 @@ document.getElementById('container').appendChild(renderer.domElement);
 
 // Загрузка текстуры крыши
 const loader = new THREE.TextureLoader();
-const roofTexture = loader.load('/Screenshot.png'); // Замените на путь к изображению
+const roofTexture = loader.load('Screenshot.png'); // Замените на путь к изображению
 
 const axesHelper = new THREE.AxesHelper(5)
 scene.add(axesHelper);
