@@ -16,6 +16,7 @@
   "dependencies": {
     "esbuild": "^0.24.0",
     "lil-gui": "^0.20.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "three": "^0.170.0"
   }
 }

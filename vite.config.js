@@ -1,5 +1,5 @@
 export default {
-    base: '/three.js-examples/',
+    base: '/three-js-examples/',
     build: {
         outDir: 'dist',
     },
